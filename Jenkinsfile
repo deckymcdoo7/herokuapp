@@ -52,13 +52,11 @@ pipeline {
             always {
                 script{
 
-            sh "allure generate target/surefire-reports --clean"
-
              publishHTML (target: [
                             allowMissing: false,
                             alwaysLinkToLastBuild: false,
                             keepAll: true,
-                            reportDir: "target/report",
+                            reportDir: "reports",
                             reportFiles: "index.html",
                             reportName: "Report"
                 ])
