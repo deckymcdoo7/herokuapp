@@ -1,4 +1,4 @@
-Prerequisite
+Prerequisite 
 - chromedriver installed via brew. brew cask install chromedriver
 - geckodriver installed via brew install geckodriver
 
