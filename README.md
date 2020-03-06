@@ -1,4 +1,4 @@
-Prerequisite
+iPrerequisite
 - chromedriver installed via brew. brew cask install chromedriver
 - geckodriver installed via brew install geckodriver
 
@@ -15,4 +15,4 @@ each PR. To updates jenkins job directly make changes to jenkinsfile and push to
 #Issues
 - As only computer available to me was a mac I was unable to 
 run the IE tests. I have detailed in the Test plan which tests
-I would write if I had access to saucelabs | pc 
+I would write if I had access to saucelabss | pc 
